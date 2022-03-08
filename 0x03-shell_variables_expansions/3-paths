@@ -1,2 +1,2 @@
 #!/bin/bash
-set
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
